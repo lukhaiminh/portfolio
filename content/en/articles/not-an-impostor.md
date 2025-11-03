@@ -9,7 +9,7 @@ description: "In the theater of content creation, many backstage whisper a
 tags:
   - Creation
   - Productivity
-image: https://canvas.hrcd.fr/articles/trap-of-perfection.jpg
+image: https://lukhaiminh-portfolio.nuxt.space/articles/trap-of-perfection.jpg
 readingTime: "3"
 ---
 
