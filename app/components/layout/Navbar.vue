@@ -19,7 +19,7 @@ const localePath = useLocalePath()
         rounded
         transparent
         :animate="false"
-        class="border border-white/10"
+        class="spotlight-btn border border-white/10"
       >
         <nav class="z-10 flex h-[50px] justify-around gap-2 p-1 transition-all duration-300 ease-in-out sm:h-[45px] sm:hover:gap-4">
           <NuxtLink
@@ -41,7 +41,16 @@ const localePath = useLocalePath()
             />
           </NuxtLink>
         </nav>
+
+        <ContentSearch />
       </SpotlightButton>
     </header>
   </div>
 </template>
+
+<style scoped>
+  .spotlight-btn {
+    padding-right: 1rem;
+    /* box-shadow: 0 0 30px rgba(255, 255, 255, 0.1); */
+  }
+</style>

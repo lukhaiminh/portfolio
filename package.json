@@ -1,6 +1,7 @@
 {
-  "name": "canvas-template",
-  "author": "HugoRCD",
+  "name": "portfolio",
+  "type": "module",
+  "author": "MooN",
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
@@ -28,13 +29,15 @@
     "@vueuse/nuxt": "13.9.0",
     "better-sqlite3": "^12.4.1",
     "nuxt": "4.2.0",
+    "openai": "^6.7.0",
     "resend": "6.3.0",
     "sitemap": "8.0.2",
     "ufo": "^1.6.1",
     "vue-sonner": "2.0.9"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "1.10.0",
+    "@antfu/eslint-config": "^6.1.0",
+    "@nuxt/eslint": "^1.10.0",
     "automd": "0.4.2",
     "eslint": "9.38.0"
   },

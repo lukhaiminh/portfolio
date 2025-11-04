@@ -1,26 +1,26 @@
 export default defineAppConfig({
   global: {
-    meetingLink: 'https://cal.com/hugorcd/15min',
+    meetingLink: 'https://cal.com/lukhaiminh/15min',
     available: true,
   },
   profile: {
-    name: 'Hugo Richard',
-    job: 'Frontend Architect and Designer',
-    email: 'contact@hrcd.fr',
-    phone: '(+33) 6 21 56 22 18',
-    picture: 'https://avatars.githubusercontent.com/u/71938701?v=4',
+    name: 'MooN',
+    job: 'Full Stack Developer and Architect',
+    email: 'lukhaiminh@gmail.com',
+    phone: '(+84) 868 056 818',
+    picture: 'https://avatars.githubusercontent.com/u/6848406?v=4',
   },
   socials: {
-    github: 'https://github.com/HugoRCD',
-    twitter: 'https://twitter.com/HugoRCD__',
-    linkedin: 'https://www.linkedin.com/in/hugo-richard-0801',
-    instagram: 'https://www.instagram.com/hugo.rcd_',
-    spotify: 'https://open.spotify.com/user/yuvl0zpp3bpx4hne1ag7huten?si=df7ee2777c0c4fc4',
+    github: 'https://github.com/lukhaiminh',
+    twitter: 'https://twitter.com/lukhaiminh__',
+    linkedin: 'https://www.linkedin.com/in/lukhaiminh', 
+    instagram: 'https://www.instagram.com/#',
+    spotify: 'https://open.spotify.com/user/#',
   },
   seo: {
     title: 'Canvas a Nuxt portfolio template',
-    description: 'Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by HugoRCD',
-    url: 'https://canvas.hrcd.fr',
+    description: 'Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by lukhaiminh',
+    url: 'https://lukhaiminh-portfolio.nuxt.space',
   },
   ui: {
     colors: {
@@ -57,6 +57,19 @@ export default defineAppConfig({
     icons: {
       loading: 'lucide:loader',
     },
+    // contentSearch: {
+    //   slots: {
+    //     modal: '',
+    //     input: '[&>input]:text-base/5'
+    //   },
+    //   variants: {
+    //     fullscreen: {
+    //       false: {
+    //         modal: 'sm:max-w-3xl sm:h-[28rem]'
+    //       }
+    //     }
+    //   }
+    // }
   },
   link: [
     {

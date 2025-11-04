@@ -9,7 +9,7 @@ description: "Dans le théâtre de la création de contenu, nombreux sont ceux q
 tags:
   - Création
   - Productivité
-image: https://canvas.hrcd.fr/articles/trap-of-perfection.jpg
+image: https://lukhaiminh-portfolio.nuxt.space/articles/trap-of-perfection.jpg
 readingTime: "3"
 ---
 

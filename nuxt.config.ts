@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     'vue-sonner/nuxt',
+    '@nuxt/eslint',
   ],
 
   imports: {
@@ -26,7 +27,7 @@ export default defineNuxtConfig({
   css: ['~/assets/style/main.css'],
 
   site: {
-    url: 'https://canvas.hrcd.fr',
+    url: 'https://lukhaiminh-portfolio.nuxt.space',
     defaultLocale: 'en',
     indexable: true,
   },
@@ -54,9 +55,10 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    public: {
-      resend: !!process.env.NUXT_PRIVATE_RESEND_API_KEY,
-    },
+    openaiApiKey: process.env.NUXT_OPENAI_API_KEY || '',
+    // public: {
+    //   resend: !!process.env.NUXT_PRIVATE_RESEND_API_KEY,
+    // },
   },
 
   routeRules: {
@@ -123,5 +125,5 @@ export default defineNuxtConfig({
 
   ogImage: {
     zeroRuntime: true,
-  },
-})
+  }
+});

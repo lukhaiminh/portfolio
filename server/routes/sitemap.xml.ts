@@ -6,7 +6,7 @@ export default defineEventHandler(async (event) => {
   // Fetch all documents
   const docs = await serverQueryContent(event).find()
   const sitemap = new SitemapStream({
-    hostname: 'https://canvas.hrcd.fr',
+    hostname: 'https://lukhaiminh-portfolio.nuxt.space',
   })
 
   for (const doc of docs) {

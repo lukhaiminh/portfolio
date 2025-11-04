@@ -9,7 +9,7 @@ tags:
   - Development
   - Design
   - Productivity
-image: https://canvas.hrcd.fr/articles/launch-your-porfolio.jpg
+image: https://lukhaiminh-portfolio.nuxt.space/articles/launch-your-porfolio.jpg
 readingTime: "5"
 ---
 
