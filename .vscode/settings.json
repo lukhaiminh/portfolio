@@ -9,6 +9,10 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
+  "tailwindCSS.classAttributes": ["class", "ui"],
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
 
   // Auto fix
   "editor.codeActionsOnSave": {
